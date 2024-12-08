@@ -170,7 +170,7 @@ local repCollectibles={
 	[367] = {"367", "粘性炸弹", "{{Bomb}} +5炸弹#{{Slow}} 角色的炸弹会粘在敌人身上并留下减速水迹#用炸弹击杀敌人会生成蓝蜘蛛"},
 	[368] =	{"368", "溢泪症", "↑ {{Tears}} 持续向单方向发射会逐渐提高射速, 最多为原来的2x"}, -- Epiphora
 	[369] = {"369", "连续统", "↑ {{Range}} 射程+3#灵体泪弹#泪弹会过屏幕, 从另一边回来"}, -- Continuum
-	[370] = {"370", "玩偶先生", "↑ {{Tears}} +0.7射速#↑ {{Range}} +2.5射程#{{UnknownHeart}} 捡起时生成3随机心"}, -- Mr. Dolly
+	[370] = {"370", "玩偶先生", "↑ {{Tears}} +0.7射速#↑ {{Range}} +2.5射程#{{UnknownHeart}} 拾起时生成3随机心"}, -- Mr. Dolly
 	[374] = {"374", "圣光", "10%几率发射圣光泪弹, 击中时会产生光柱#{{Luck}} 幸运9: 50%几率#{{Damage}} 光柱造成3x角色伤害"}, -- Holy Light
 	[375] = {"375", "寄居骷髅帽", "免疫爆炸和掉落弹幕#25%几率反弹敌人弹幕"}, -- Host hat
 	[376] = {"376", "补货", "商店物品购买后会立刻补货#每次补货价格都会提高"}, -- Restock
@@ -295,7 +295,7 @@ local repCollectibles={
 	[601] = {"601", "痛悔短祷", "↑ {{Tears}} 射速+0.7#{{EternalHeart}} +1永恒之心#{{AngelChance}} 进行过恶魔交易后天使房仍然会出现#{{AngelDevilChance}} 减缓受红心伤害后减少恶魔房/天使房的几率"}, --  Act of Contrition
 	[602] = {"602", "会员卡", "{{Shop}} 在商店内生成1个通往地下商店的暗门, 售卖饰品, 符文, 卡牌, 特殊心和任意道具池的道具"}, --  Member Card
 	[603] = {"603", "电池组", "{{Battery}} 生成2-4电池#{{Battery}} 将主动道具完全充能"}, --  Battery Pack
-	[604] = {"604", "妈妈的手镯", "允许角色捡起并投掷石头/TNT/大便/友好粪滴/寄居骷髅等障碍物#捡起的东西可以带到其他房间"}, --  Mom's Bracelet
+	[604] = {"604", "妈妈的手镯", "允许角色举起并投掷石头/TNT/大便/友好粪滴/寄居骷髅等障碍物#举起的东西可以带到其他房间"}, --  Mom's Bracelet
 	[605] = {"605", "挖眼勺", "↑ {{Damage}} 右眼伤害修正x1.35#{{Timer}} 在当前房间中召唤1个眼球跟班, 每秒造成36点伤害并留下血迹"}, --  The Scooper
 	[606] = {"606", "邪眼裂口", "5%几率发射在落地时生成裂隙的泪弹#{{Luck}} 幸运15: 20%几率#裂隙每秒造成3x角色伤害, 并吸引附近的敌人, 掉落物和弹幕"}, --  Ocular Rift
 	[607] = {"607", "脓液囊宝宝", "向四周随机喷射泪弹#泪弹造成3.5或5.25点伤害"}, --  Boiled Baby
@@ -319,7 +319,7 @@ local repCollectibles={
 	[625] = {"625", "超级蘑菇", "{{Timer}} 角色巨化并获得:#↑ {{Damage}} 伤害修正x4#↑ {{Range}} 射程+2#↓ {{Tears}} 射速-1.9#无敌#能踩碎障碍物和敌人#{{Timer}} 持续30秒, 能在房间之间和层之间持续"}, --  Mega Mush
 	[626] = {"626", "菜刀碎片1", "与{{Collectible627}}菜刀碎片2结合变为可投掷的菜刀, 造成25点伤害#菜刀能打开红色肉门"}, --  Knife Piece 1
 	[627] = {"627", "菜刀碎片2", "与{{Collectible626}}菜刀碎片1结合变为可投掷的菜刀, 造成25点伤害#菜刀能打开红色肉门"}, --  Knife Piece 2
-	[628] = {"628", "死亡证明", "将角色传送至含有所有游戏道具的一层#捡起1个道具后回到之前的房间"}, --  Death Certificate
+	[628] = {"628", "死亡证明", "将角色传送至含有所有游戏道具的一层#拾起1个道具后回到之前的房间"}, --  Death Certificate
 	[629] = {"629", "机器苍蝇", "发射能摧毁敌人弹幕的护盾泪弹#每秒造成3点接触伤害"}, --  Bot Fly
 	[630] = {"630", "", "<道具不存在>"},
 	[631] = {"631", "切肉刀", "使敌人分裂为2个40%血量的小型版本#本身能分裂的敌人(比如嫉妒)改为造成分裂所需的伤害#对无法分裂的敌人造成25点伤害"}, --  Meat Cleaver
@@ -397,7 +397,7 @@ local repCollectibles={
 	[703] = {"703", "小以扫", "在当前角色和小以扫之间切换#小以扫拥有3黑心, {{Damage}}伤害+2, 飞行, 首次使用时获得与主角色等量的随机道具#两个角色道具和血量独立#{{Warning}} 任意角色死亡, 游戏结束"}, --  Esau Jr.
 	[704] = {"704", "狂怒！", "{{Battery}} 造成伤害时充能#{{Timer}} 5秒内获得:#↑ {{Speed}} 移速+0.4#↑ {{Tears}} 射速修正x0.5#↑ {{Tears}} 射速+2#↑ {{Damage}} 伤害+3#只能使用特定近战武器, 能反弹弹幕#{{Timer}} 击杀敌人可延长此状态1秒, 并获得短暂无敌"}, --  Berserk!
 	[705] = {"705", "暗仪刺刀", "{{Timer}} 1秒内(发射前)获得:#↑ 移速+1#角色可穿过敌人/弹幕并使其静止#效果结束时, 伤害静止的敌人, 移除静止的弹幕, 在角色位置产生冲击#穿过的敌人/弹幕越多, 伤害和冲击越强"}, --  Dark Arts
-	[706] = {"706", "无底坑", "消耗房间中所有底座道具并对应生成蝗虫跟班#蝗虫造成2x-3x角色伤害一些道具会生成特殊蝗虫"}, --  Abyss
+	[706] = {"706", "无底坑", "消耗房间中所有底座道具并对应生成蝗虫跟班#蝗虫造成2x-3x角色伤害#一些道具会生成特殊蝗虫"}, --  Abyss
 	[707] = {"707", "晚餐", "↑ {{Heart}} +1心之容器#{{HealingRed}} 治疗1红心"}, --  Supper
 	[708] = {"708", "订书机", "↑ {{Damage}} 伤害+1#角色所有泪弹都从右眼发射"}, --  Stapler
 	[709] = {"709", "背摔！", "角色向移动方向冲刺#冲到敌人或头目时将其举起并摔在地上#根据角色体型造成摔伤并产生岩石波#冲刺和摔击时角色无敌"}, --  Suplex!
@@ -896,7 +896,7 @@ EID.descriptions[languageCode].goldenTrinketEffects = {
 	-- Tick (replace): A full replacement for Golden / Mom's Box / Both, as the Golden version can be removed and only one effect is tripled
 	[53] = {
 		"{{HealingRed}} 进入{{BossRoom}}头目房时治疗{{ColorGold}}2{{CR}}红心#头目血量-{{ColorGold}}30{{CR}}%#{{ColorGold}}可以直接移除!",
-		"{{HealingRed}} 进入{{BossRoom}}头目房时治疗{{ColorGold}}2{{CR}}红心#头目血量-{{ColorGold}}30{{CR}}%#!!! 捡起后无法被其他饰品替换#只能被{{Trinket41}}火柴棒移除或吞下",
+		"{{HealingRed}} 进入{{BossRoom}}头目房时治疗{{ColorGold}}2{{CR}}红心#头目血量-{{ColorGold}}30{{CR}}%#!!! 拾起后无法被其他饰品替换#只能被{{Trinket41}}火柴棒移除或吞下",
 		"{{HealingRed}} 进入{{BossRoom}}头目房时治疗{{ColorGold}}3{{CR}}红心#头目血量-{{ColorGold}}30{{CR}}%#{{ColorGold}}可以直接移除!",
 	},
 	-- Rainbow Worm (append): With Mom's Box, it gives 2 copies of the temp worm, and doubles 1 of those copies, for triple effect
@@ -1445,7 +1445,7 @@ local repConditions = {
 	["5.100.482"] = "堕化角色换为另一个堕化角色", -- Clicker
 
 	["4.5 Volt Timed"] = "对时间充能无效", -- 4.5 Volt + Timed Recharges
-	["4.5 Volt Multiple"] = "副主动/次要主动道具只有在主要主动道具完全充能时获得充能", -- 4.5 Volt + Schoolbag/Pocket Actives
+	["4.5 Volt Multiple"] = "副主动/口袋道具只有在主要主动道具完全充能时获得充能", -- 4.5 Volt + Schoolbag/Pocket Actives
 	["Bulb Zero"] = "无充能主动道具不算", -- Vibrant/Dim Bulb + zero charge actives
 
 	["Brimstone Proptosis"] = "激光在最近时造成6x伤害, 伤害随距离降低",
